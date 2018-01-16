@@ -10,10 +10,9 @@
 
 ## Data
 
-### Kansas City Financial Stress Index
 
-| Variables | 
-|---------- |
+| Kansas City Financial Stress Index Variables | 
+|---------- | 
 | 3-month LIBOR/3-month T-bill spread |
 | 2-year swap spread |
 | Off-the-run/on-the-run 10-year Treasury spread |
@@ -26,3 +25,24 @@ Treasury returns |
 | Implied volatility of overall stock prices (VIX) |
 | Idiosyncratic volatility (IVOL) of bank stock prices |
 | Cross-section dispersion (CSD) of bank stock returns |
+
+| St. Louis Financial Stress Index Variables |
+| ---------- |
+| Effective federal funds rate |
+| 2-year Treasury |
+| 10-year Treasury |
+| 30-year Treasury |
+| Baa-rated corporate |
+| Merrill Lynch High-Yield Corporate Master II Index |
+| Merrill Lynch Asset-Backed Master BBB-rated |
+| Yield curve: 10-year Treasury minus 3-month Treasury |
+| Corporate Baa-rated bond minus 10-year Treasury (corporate credit risk spread) |
+| Merrill Lynch High-Yield Corporate Master II Index minus 10-year Treasury (high-yield credit risk spread) |
+| 3-month London Interbank Offering Rate–Overnight Index Swap spread (3-month LIBOR-OIS spread) |
+| 3-month Treasury-Eurodollar spread (TED spread) |
+| 3-month commercial paper minus 3-month Treasury bill (commercial paper spread (3-month)) |
+| J.P. Morgan Emerging Markets Bond Index Plus |
+| Chicago Board Options Exchange Market Volatility Index (VIX) |
+| Merrill Lynch Bond Market Volatility Index (1-month) |
+| 10-year nominal Treasury yield minus 10-year Treasury Inflation Protected Security yield (breakeven inflation rate (10-year)) |
+| S&P 500 Financials Index |
