@@ -1,6 +1,6 @@
 # Financial Stress Index
 
-## Readings
+### Readings
 - (Kansas City Federal Reserve Stress Index)[https://www.kansascityfed.org/research/indicatorsdata/kcfsi]
 - (Financial Stress: What Is It, How Can It Be Measured, and Why Does It Matter?)[https://www.kansascityfed.org/PUBLICAT/ECONREV/pdf/09q2hakkio_keeton.pdf]
 - (What is the St. Louis Fed Financial Stress Index?)[https://www.stlouisfed.org/on-the-economy/2014/june/what-is-the-st-louis-fed-financial-stress-index]
@@ -8,7 +8,7 @@
 - (List of Data Series Used to Construct the St. Louis Fed Financial Stress Index
 )[https://www.stlouisfed.org/news-releases/st-louis-fed-financial-stress-index/stlfsi-key]
 
-## Data
+### Data
 
 
 | Kansas City Financial Stress Index Variables | 
@@ -46,3 +46,8 @@ Treasury returns |
 | Merrill Lynch Bond Market Volatility Index (1-month) |
 | 10-year nominal Treasury yield minus 10-year Treasury Inflation Protected Security yield (breakeven inflation rate (10-year)) |
 | S&P 500 Financials Index |
+
+#### Similar Work
+
+- [An Index of Financial Stress for Canada](https://www.bankofcanada.ca/2003/06/working-paper-2003-14/)
+- 
