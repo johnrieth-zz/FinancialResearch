@@ -2,13 +2,21 @@
 
 ### Readings
 - [Kansas City Federal Reserve Stress Index](https://www.kansascityfed.org/research/indicatorsdata/kcfsi)
-- [Financial Stress: What Is It, How Can It Be Measured, and Why Does It Matter?](https://www.kansascityfed.org/PUBLICAT/ECONREV/pdf/09q2hakkio_keeton.pdf)
+- [Financial Stress: What Is It, How Can It Be Measured, and Why Does It Matter?](https://www.kansascityfed.org/PUBLICAT/ECONREV/pdf/09q2hakkio_keeton.pdf) (PDF)
 - [What is the St. Louis Fed Financial Stress Index?](https://www.stlouisfed.org/on-the-economy/2014/june/what-is-the-st-louis-fed-financial-stress-index)
-- [Measuring Financial Market Stress](https://files.stlouisfed.org/files/htdocs/publications/es/10/ES1002.pdf)
+- [Measuring Financial Market Stress](https://files.stlouisfed.org/files/htdocs/publications/es/10/ES1002.pdf) (PDF)
 - [List of Data Series Used to Construct the St. Louis Fed Financial Stress Index](https://www.stlouisfed.org/news-releases/st-louis-fed-financial-stress-index/stlfsi-key)
+- [St. Louis Fed’s Financial Stress Index Appendix](https://files.stlouisfed.org/files/htdocs/publications/net/NETJan2010Appendix.pdf) (PDF)
+
+### Creating the Index
+
+"First, each of the data series is de-meaned. The de-meaned series are then divided by their respect
+ive sample standard deviations (SDs). With the variables now expressed in the same units, we use the method of principal components to calculate the coefficients of the variables in the financial stress index (FSI). We then scale these coefficients so that the SD of the index is 1. Finally, each data series is multiplied by its respective adjusted coefficient, and the observation of the FSI for time _t_ is the sum of each series multiplied by its respective adjusted coefficient. Higher values of the FSI indicate a greater degree of financial stress in the economy." [St. Louis Fed’s Financial Stress Index][1]
+
+[1]: https://files.stlouisfed.org/files/htdocs/publications/net/NETJan2010Appendix.pdf  "St. Louis Fed’s Financial Stress Index"
+
 
 ### Data
-
 
 | Kansas City Financial Stress Index Variables | 
 |---------- | 
@@ -49,4 +57,4 @@ Treasury returns |
 #### Similar Work
 
 - [An Index of Financial Stress for Canada](https://www.bankofcanada.ca/2003/06/working-paper-2003-14/)
-- 
+- [OFR Financial Stress Index](https://www.financialresearch.gov/financial-stress-index/)
