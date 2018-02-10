@@ -17,8 +17,16 @@ ive sample standard deviations (SDs). With the variables now expressed in the sa
 
 [1]: https://files.stlouisfed.org/files/htdocs/publications/net/NETJan2010Appendix.pdf  "St. Louis Fed’s Financial Stress Index"
 
-
 ### Data
+| Monthly Stress Index Variables |
+|---------- |
+| Effective federal funds rate |
+|  10-Year Treasury Constant Maturity Minus 3-Month Treasury Constant Maturity |
+| 10-Year Treasury Constant Maturity Rate |
+| 2-Year Treasury Constant Maturity Rate |
+
+
+### Data used by Federal Reserve banks
 
 | Kansas City Financial Stress Index Variables | 
 |---------- | 
