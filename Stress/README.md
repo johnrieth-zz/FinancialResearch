@@ -8,12 +8,16 @@
 - [List of Data Series Used to Construct the St. Louis Fed Financial Stress Index](https://www.stlouisfed.org/news-releases/st-louis-fed-financial-stress-index/stlfsi-key)
 - [St. Louis Fed’s Financial Stress Index Appendix](https://files.stlouisfed.org/files/htdocs/publications/net/NETJan2010Appendix.pdf) (PDF)
 
+### Similar Work
+
+- [An Index of Financial Stress for Canada](https://www.bankofcanada.ca/2003/06/working-paper-2003-14/)
+- [OFR Financial Stress Index](https://www.financialresearch.gov/financial-stress-index/)
+
 ### Creating the Index
 
 I did my best to follow construction of the St. Louis Fed's Financial Stress Index. The Monthly and Weekly Stress Indexes are different than the Federal Reserve Indexes. One reason is using different data. I do not want to use proprietary data such as Baa-rated corporate and Merrill Lynch assets. A second reason could be different tools to implement the indexes.
 
-"First, each of the data series is de-meaned. The de-meaned series are then divided by their respect
-ive sample standard deviations (SDs). With the variables now expressed in the same units, we use the method of principal components to calculate the coefficients of the variables in the financial stress index (FSI). We then scale these coefficients so that the SD of the index is 1. Finally, each data series is multiplied by its respective adjusted coefficient, and the observation of the FSI for time _t_ is the sum of each series multiplied by its respective adjusted coefficient. Higher values of the FSI indicate a greater degree of financial stress in the economy." [St. Louis Fed’s Financial Stress Index][1]
+"First, each of the data series is de-meaned. The de-meaned series are then divided by their respective sample standard deviations (SDs). With the variables now expressed in the same units, we use the method of principal components to calculate the coefficients of the variables in the financial stress index (FSI). We then scale these coefficients so that the SD of the index is 1. Finally, each data series is multiplied by its respective adjusted coefficient, and the observation of the FSI for time _t_ is the sum of each series multiplied by its respective adjusted coefficient. Higher values of the FSI indicate a greater degree of financial stress in the economy." [St. Louis Fed’s Financial Stress Index][1]
 
 [1]: https://files.stlouisfed.org/files/htdocs/publications/net/NETJan2010Appendix.pdf  "St. Louis Fed’s Financial Stress Index"
 
@@ -25,7 +29,6 @@ ive sample standard deviations (SDs). With the variables now expressed in the sa
 | 10-Year Treasury Constant Maturity Rate |
 | 2-Year Treasury Constant Maturity Rate |
 
-### 
 
 ### Data used by Federal Reserve banks
 
@@ -65,7 +68,3 @@ Treasury returns |
 | 10-year nominal Treasury yield minus 10-year Treasury Inflation Protected Security yield (breakeven inflation rate (10-year)) |
 | S&P 500 Financials Index |
 
-#### Similar Work
-
-- [An Index of Financial Stress for Canada](https://www.bankofcanada.ca/2003/06/working-paper-2003-14/)
-- [OFR Financial Stress Index](https://www.financialresearch.gov/financial-stress-index/)
