@@ -1,4 +1,3 @@
-An attempt to move away from econophysics. Moving towards economics + ecology + biology + epidemiology + hydrology + pscyhology + topology + pathology. 
 
 
 ### Resources
